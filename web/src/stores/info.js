@@ -3,74 +3,74 @@ import { defineStore } from 'pinia'
 import { brandApi } from '@/apis/system_api'
 
 export const useInfoStore = defineStore('info', () => {
-  // 状态
+  // State
   const infoConfig = ref({})
   const isLoading = ref(false)
   const isLoaded = ref(false)
   const debugMode = ref(false)
 
-  // 计算属性 - 组织信息
+  // Computed property - Organization info
   const organization = computed(() => infoConfig.value.organization || {
-    name: "江南语析",
+    name: "Yuxi-Know",
     logo: "/favicon.svg",
     avatar: "/avatar.jpg"
   })
 
-  // 计算属性 - 品牌信息
+  // Computed property - Branding info
   const branding = computed(() => infoConfig.value.branding || {
     name: "Yuxi-Know",
     title: "Yuxi-Know",
-    subtitle: "大模型驱动的知识库管理工具",
-    description: "结合知识库与知识图谱，提供更准确、更全面的回答"
+    subtitle: "AI-Powered Knowledge Management Tool",
+    description: "Combining knowledge base and knowledge graph for more accurate and comprehensive answers"
   })
 
-  // 计算属性 - 功能特性
+  // Computed property - Features
   const features = computed(() => infoConfig.value.features || [{
     label: "GitHub Stars",
     value: "3000+",
-    description: "开发者社区的认可与支持",
+    description: "Community recognition and support",
     icon: "stars"
   }, {
-    label: "已解决 Issues",
+    label: "Resolved Issues",
     value: "250+",
-    description: "持续改进和问题解决能力",
+    description: "Continuous improvement and problem-solving ability",
     icon: "issues"
   }, {
-    label: "累计 Commits",
+    label: "Total Commits",
     value: "1100+",
-    description: "活跃的开发迭代和功能更新",
+    description: "Active development iterations and feature updates",
     icon: "commits"
   }, {
-    label: "开源协议",
-    value: "MIT 协议",
-    description: "完全免费，支持商业使用",
+    label: "Open Source License",
+    value: "MIT License",
+    description: "Completely free, supports commercial use",
     icon: "license"
   }])
 
   const actions = computed(() => infoConfig.value.actions || [{
-    name: "演示视频",
+    name: "Demo Video",
     icon: "video",
     url: "https://www.bilibili.com/video/BV1DF14BTETq"
   }, {
-    name: "文档中心",
+    name: "Documentation",
     icon: "docs",
     url: "https://xerrors.github.io/Yuxi-Know/"
   }, {
-    name: "提交 Issue",
+    name: "Submit Issue",
     icon: "issue",
     url: "https://github.com/xerrors/Yuxi-Know/issues/new/choose"
   }, {
-    name: "开发路线图",
+    name: "Roadmap",
     icon: "roadmap",
     url: "https://github.com/xerrors/Yuxi-Know#roadmap"
   }])
 
-  // 计算属性 - 页脚信息
+  // Computed property - Footer info
   const footer = computed(() => infoConfig.value.footer || {
-    copyright: "© 江南语析 2025 [WIP] v0.12.138"
+    copyright: "© Yuxi-Know 2025 [WIP] v0.12.138"
   })
 
-  // 动作方法
+  // Action methods
   function setInfoConfig(newConfig) {
     infoConfig.value = newConfig
     isLoaded.value = true
@@ -85,7 +85,7 @@ export const useInfoStore = defineStore('info', () => {
   }
 
   async function loadInfoConfig(force = false) {
-    // 如果已经加载过且不强制刷新，则不重新加载
+    // If already loaded and not forcing refresh, don't reload
     if (isLoaded.value && !force) {
       return infoConfig.value
     }
@@ -96,14 +96,14 @@ export const useInfoStore = defineStore('info', () => {
 
       if (response.success && response.data) {
         setInfoConfig(response.data)
-        console.debug('信息配置加载成功:', response.data)
+        console.debug('Info config loaded successfully:', response.data)
         return response.data
       } else {
-        console.warn('信息配置加载失败，使用默认配置')
+        console.warn('Info config loading failed, using default config')
         return null
       }
     } catch (error) {
-      console.error('加载信息配置时发生错误:', error)
+      console.error('Error loading info config:', error)
       return null
     } finally {
       isLoading.value = false
@@ -117,14 +117,14 @@ export const useInfoStore = defineStore('info', () => {
 
       if (response.success && response.data) {
         setInfoConfig(response.data)
-        console.debug('信息配置重新加载成功:', response.data)
+        console.debug('Info config reloaded successfully:', response.data)
         return response.data
       } else {
-        console.warn('信息配置重新加载失败')
+        console.warn('Info config reload failed')
         return null
       }
     } catch (error) {
-      console.error('重新加载信息配置时发生错误:', error)
+      console.error('Error reloading info config:', error)
       return null
     } finally {
       isLoading.value = false
@@ -132,20 +132,20 @@ export const useInfoStore = defineStore('info', () => {
   }
 
     return {
-    // 状态
+    // State
     infoConfig,
     isLoading,
     isLoaded,
     debugMode,
 
-    // 计算属性
+    // Computed properties
     organization,
     branding,
     features,
     footer,
     actions,
 
-    // 方法
+    // Methods
     setInfoConfig,
     setDebugMode,
     toggleDebugMode,

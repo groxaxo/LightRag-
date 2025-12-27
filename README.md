@@ -2,7 +2,7 @@
 <div align="center">
 <img width="140" height="140" alt="image" src="https://github.com/user-attachments/assets/299137b7-08d8-45b0-9feb-7b4ab35d7b48" />
 
-<h1>语析 - 基于大模型的知识库与知识图谱智能体开发平台</h1>
+<h1>Yuxi-Know - AI-Powered Knowledge Base & Knowledge Graph Agent Development Platform</h1>
 
 <a href="https://trendshift.io/repositories/15845" target="_blank"><img src="https://trendshift.io/api/badge/repositories/15845" alt="Yuxi-Know | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
 
@@ -11,72 +11,71 @@
 [![](https://img.shields.io/github/issues/xerrors/Yuxi-Know?color=F48D73)](https://github.com/xerrors/Yuxi-Know/issues)
 [![License](https://img.shields.io/github/license/bitcookies/winrar-keygen.svg?logo=github)](https://github.com/xerrors/Yuxi-Know/blob/main/LICENSE)
 [![DeepWiki](https://img.shields.io/badge/DeepWiki-blue.svg)](https://deepwiki.com/xerrors/Yuxi-Know)
-[![zread](https://img.shields.io/badge/Ask_Zread-_.svg?style=flat&color=00b0aa&labelColor=000000&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTQuOTYxNTYgMS42MDAxSDIuMjQxNTZDMS44ODgxIDEuNjAwMSAxLjYwMTU2IDEuODg2NjQgMS42MDE1NiAyLjI0MDFWNC45NjAxQzEuNjAxNTYgNS4zMTM1NiAxLjg4ODEgNS42MDAxIDIuMjQxNTYgNS42MDAxSDQuOTYxNTZDNS4zMTUwMiA1LjYwMDEgNS42MDE1NiA1LjMxMzU2IDUuNjAxNTYgNC45NjAxVjIuMjQwMUM1LjYwMTU2IDEuODg2NjQgNS4zMTUwMiAxLjYwMDEgNC45NjE1NiAxLjYwMDFaIiBmaWxsPSIjZmZmIi8%2BCjxwYXRoIGQ9Ik00Ljk2MTU2IDEwLjM5OTlIMi4yNDE1NkMxLjg4ODEgMTAuMzk5OSAxLjYwMTU2IDEwLjY4NjQgMS42MDE1NiAxMS4wMzk5VjEzLjc1OTlDMS42MDE1NiAxNC4xMTM0IDEuODg4MSAxNC4zOTk5IDIuMjQxNTYgMTQuMzk5OUg0Ljk2MTU2QzUuMzE1MDIgMTQuMzk5OSA1LjYwMTU2IDE0LjExMzQgNS42MDE1NiAxMy43NTk5VjExLjAzOTlDNS42MDE1NiAxMC42ODY0IDUuMzE1MDIgMTAuMzk5OSA0Ljk2MTU2IDEwLjM5OTlaIiBmaWxsPSIjZmZmIi8%2BCjxwYXRoIGQ9Ik0xMy43NTg0IDEuNjAwMUgxMS4wMzg0QzEwLjY4NSAxLjYwMDEgMTAuMzk4NCAxLjg4NjY0IDEwLjM5ODQgMi4yNDAxVjQuOTYwMUMxMC4zOTg0IDUuMzEzNTYgMTAuNjg1IDUuNjAwMSAxMS4wMzg0IDUuNjAwMUgxMy43NTg0QzE0LjExMTkgNS42MDAxIDE0LjM5ODQgNS4zMTM1NiAxNC4zOTg0IDQuOTYwMVYyLjI0MDFDMTQuMzk4NCAxLjg4NjY0IDE0LjExMTkgMS42MDAxIDEzLjc1ODQgMS42MDAxWiIgZmlsbD0iI2ZmZiIvPgo8cGF0aCBkPSJNNCAxMkwxMiA0TDQgMTJaIiBmaWxsPSIjZmZmIi8%2BCjxwYXRoIGQ9Ik00IDEyTDEyIDQiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSIxLjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgo8L3N2Zz4K&logoColor=ffffff)](https://zread.ai/xerrors/Yuxi-Know)
+[![zread](https://img.shields.io/badge/Ask_Zread-_.svg?style=flat&color=00b0aa&labelColor=000000&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTQuOTYxNTYgMS42MDAxSDIuMjQxNTZDMS44ODgxIDEuNjAwMSAxLjYwMTU2IDEuODg2NjQgMS42MDE1NiAyLjI0MDFWNC45NjAxQzEuNjAxNTYgNS4zMTM1NiAxLjg4ODEgNS42MDAxIDIuMjQxNTYgNS42MDAxSDQuOTYxNTZDNS4zMTUwMiA1LjYwMDEgNS42MDE1NiA1LjMxMzU2IDUuNjAx1NiA0Ljk2MDFWMi4yNDAxQzUuNjAxNTYgMS44ODY2NCA1LjMxNTAyIDEuNjAwMSA0Ljk2MTU2IDEuNjAwMVoiIGZpbGw9IiNmZmYiLz4KPHBhdGggZD0iTTQuOTYxNTYgMTAuMzk5OUgyLjI0MTU2QzEuODg4MSAxMC4zOTk5IDEuNjAxNTYgMTAuNjg2NCAxLjYwMTU2IDExLjAzOTlWMTMuNzU5OUMxLjYwMTU2IDE0LjExMzQgMS44ODgxIDE0LjM5OTkgMi4yNDE1NiAxNC4zOTk5SDQuOTYxNTZDNS4zMTUwMiAxNC4zOTk5IDUuNjAxNTYgMTQuMTEzNCA1LjYwMTU2IDEzLjc1OTlWMTEuMDM5OUM1LjYwMTU2IDEwLjY4NjQgNS4zMTUwMiAxMC4zOTk5IDQuOTYxNTYgMTAuMzk5OVoiIGZpbGw9IiNmZmYiLz4KPHBhdGggZD0iTTEzLjc1ODQgMS42MDAxSDExLjAzODRDMTAuNjg1IDEuNjAwMSAxMC4zOTg0IDEuODg2NjQgMTAuMzk4NCAyLjI0MDFWNC45NjAxQzEwLjM5ODQgNS4zMTM1NiAxMC42ODUgNS42MDAxIDExLjAzODQgNS42MDAxSDEzLjc1ODRDMTQuMTExOSA1LjYwMDEgMTQuMzk4NCA1LjMxMzU2IDE0LjM5ODQgNC45NjAxVjIuMjQwMUMxNC4zOTg0IDEuODg2NjQgMTQuMTExOSAxLjYwMDEgMTMuNzU4NCAxLjYwMDFaIiBmaWxsPSIjZmZmIi8%2BCjxwYXRoIGQ9Ik00IDEyTDEyIDRMNCAxMloiIGZpbGw9IiNmZmYiLz4KPHBhdGggZD0iTTQgMTJMMTIgNCIgc3Ryb2tlPSIjZmZmIiBzdHJva2Utd2lkdGg9IjEuNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8%2BCjwvc3ZnPgo%3D&logoColor=ffffff)](https://zread.ai/xerrors/Yuxi-Know)
 [![demo](https://img.shields.io/badge/demo-00A1D6.svg?style=flat&logo=bilibili&logoColor=white)](https://www.bilibili.com/video/BV1DF14BTETq/)
 
-📄 [**文档中心**](https://xerrors.github.io/Yuxi-Know/) |
-📽️ [**视频演示**](https://www.bilibili.com/video/BV1DF14BTETq/)
+📄 [**Documentation**](https://xerrors.github.io/Yuxi-Know/) |
+📽️ [**Video Demo**](https://www.bilibili.com/video/BV1DF14BTETq/)
+
+[English](#english) | [Español](#español)
 
 </div>
 
+---
 
-语析是一个功能强大的智能体平台，融合了 RAG 知识库与知识图谱技术，基于 LangGraph v1 + Vue.js + FastAPI + LightRAG 架构构建。
+## English
 
-**亮点**：提供全套的智能体开发套件，基于 MIT 开源协议，技术栈友好，适合基于此项目打造自己的智能体平台。
+Yuxi-Know is a powerful AI agent platform that combines RAG knowledge base and knowledge graph technologies, built on LangGraph v1 + Vue.js + FastAPI + LightRAG architecture.
+
+**Highlights**: Provides a complete AI agent development toolkit with MIT open source license, friendly tech stack, perfect for building your own AI agent platform.
 
 <img width="1632" height="392" alt="image" src="https://github.com/user-attachments/assets/ec381fde-53dd-4845-a79f-116b823fe989" />
 
 ---
 
-**🎉 最新动态**
+**🎉 Latest Updates**
 
-
-
-- **[2025/12/17] v0.4.0-beta 版本发布**
+- **[2025/12/17] v0.4.0-beta Released**
   <details>
-  <summary>查看详细更新日志</summary>
+  <summary>View Detailed Changelog</summary>
 
+  ### New Features
+  - Added agent middleware for file uploads, see [documentation](https://xerrors.github.io/Yuxi-Know/latest/advanced/agents-config.html)
+  - Added multimodal model support (currently images only), see [documentation](https://xerrors.github.io/Yuxi-Know/latest/advanced/agents-config.html)
+  - Created DeepAgents (deep analysis agent) supporting todo, files rendering, and file downloads
+  - Added mind map generation from knowledge base files ([#335](https://github.com/xerrors/Yuxi-Know/pull/335#issuecomment-3530976425))
+  - Added sample question generation from knowledge base files ([#335](https://github.com/xerrors/Yuxi-Know/pull/335#issuecomment-3530976425))
+  - Added folder/zip upload support for knowledge base ([#335](https://github.com/xerrors/Yuxi-Know/pull/335#issuecomment-3530976425))
+  - Added custom model support and dashscope rerank/embeddings model support
+  - Added image support for document parsing (MinerU Official, Docs, Markdown Zip formats)
+  - Added dark mode support and UI improvements ([#343](https://github.com/xerrors/Yuxi-Know/pull/343))
+  - Added knowledge base evaluation feature with benchmark import/auto-generation (Milvus only), see [documentation](https://xerrors.github.io/Yuxi-Know/latest/intro/evaluation.html)
+  - Added duplicate file handling with upload confirmation prompt
+  - Added production deployment scripts with fixed Python dependencies for stability
+  - Optimized graph visualization with unified G6-based approach and attribute support, see [documentation](https://xerrors.github.io/Yuxi-Know/latest/intro/knowledge-base.html)
+  - Optimized DBManager/ConversationManager with async operation support
+  - Enhanced knowledge base detail page with improved file download functionality
 
-  ### 新增
-  - 新增对于上传附件的智能体中间件，详见[文档](https://xerrors.github.io/Yuxi-Know/latest/advanced/agents-config.html#%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E4%B8%AD%E9%97%B4%E4%BB%B6)
-  - 新增多模态模型支持（当前仅支持图片），详见[文档](https://xerrors.github.io/Yuxi-Know/latest/advanced/agents-config.html#%E5%A4%9A%E6%A8%A1%E6%80%81%E5%9B%BE%E7%89%87%E6%94%AF%E6%8C%81)
-  - 新建 DeepAgents 智能体（深度分析智能体），支持 todo，files 等渲染，支持文件的下载。
-  - 新增基于知识库文件生成思维导图功能（[#335](https://github.com/xerrors/Yuxi-Know/pull/335#issuecomment-3530976425)）
-  - 新增基于知识库文件生成示例问题功能（[#335](https://github.com/xerrors/Yuxi-Know/pull/335#issuecomment-3530976425)）
-  - 新增知识库支持文件夹/压缩包上传的功能（[#335](https://github.com/xerrors/Yuxi-Know/pull/335#issuecomment-3530976425)）
-  - 新增自定义模型支持、新增 dashscope rerank/embeddings 模型的支持
-  - 新增文档解析的图片支持，已支持 MinerU Officical、Docs、Markdown Zip 格式
-  - 新增暗色模式支持并调整整体 UI（[#343](https://github.com/xerrors/Yuxi-Know/pull/343)）
-  - 新增知识库评估功能，支持导入评估基准或者自动构建评估基准（目前仅支持 Milvus 类型知识库）详见[文档](https://xerrors.github.io/Yuxi-Know/latest/intro/evaluation.html)
-  - 新增同名文件处理逻辑：遇到同名文件则在上传区域提示，是否删除旧文件
-  - 新增生产环境部署脚本，固定 python 依赖版本，提升部署稳定性
-  - 优化图谱可视化方式，统一图谱数据结构，统一使用基于 G6 的可视化方式，同时支持上传带属性的图谱文件，详见[文档](https://xerrors.github.io/Yuxi-Know/latest/intro/knowledge-base.html#_1-%E4%BB%A5%E4%B8%89%E5%85%83%E7%BB%84%E5%BD%A2%E5%BC%8F%E5%AF%BC%E5%85%A5)
-  - 优化 DBManager / ConversationManager，支持异步操作
-  - 优化 知识库详情页面，更加简洁清晰，增强文件下载功能
+  ### Bug Fixes
+  - Fixed reranker model not taking effect
+  - Fixed message disappearance after interruption and improved error handling
+  - Fixed tool call status remaining active when results are empty (though successful)
+  - Fixed retrieval configuration not taking effect
 
-  ### 修复
-  - 修复重排序模型实际未生效的问题
-  - 修复消息中断后消息消失的问题，并改善异常效果
-  - 修复当前版本如果调用结果为空的时候，工具调用状态会一直处于调用状态，尽管调用是成功的
-  - 修复检索配置实际未生效的问题
-
-  ### 破坏性更新
-
-  - 移除 Chroma 的支持，当前版本标记为移除
-  - 移除模型配置预设的 TogetherAI
+  ### Breaking Changes
+  - Removed Chroma support (deprecated in current version)
+  - Removed TogetherAI from model configuration presets
   </details>
 
-- **[2025/11/05] v0.3 版本发布**
-  - 全面适配 LangChain/LangGraph v1 版本的特性，使用 create_agent 创建智能体入口。
-  - 文档解析升级，适配 mineru-2.6 以及 mineru-api。
-  - 更多智能体开发套件 中间件、子智能体，更简洁，更易上手。
+- **[2025/11/05] v0.3 Released**
+  - Full adaptation to LangChain/LangGraph v1 features using create_agent entry point
+  - Document parsing upgrade with mineru-2.6 and mineru-api support
+  - Enhanced agent development toolkit with middleware and sub-agents for easier development
 
 
 <div align="center">
-  <!-- 视频缩略图 -->
+  <!-- Video Thumbnails -->
 <img width="4420" height="2510" alt="image" src="https://github.com/user-attachments/assets/76d58c8f-e4ef-4373-8ab6-7c80da568910" />
-
-
 
   <br>
   <img width="5369" height="2934" alt="222" src="https://github.com/user-attachments/assets/839978d4-dcb8-47bd-a629-2912d2867e7e" />
@@ -93,33 +92,121 @@
   <br>
   <img width="5369" height="2934" alt="666" src="https://github.com/user-attachments/assets/8fdf0407-056d-40e2-949c-8dd4247dc59d" />
 
-
 </div>
 
+## Contributing
 
-## 参与贡献
-
-感谢所有贡献者的支持！
+Thanks to all contributors for their support!
 
 <a href="https://github.com/xerrors/Yuxi-Know/contributors">
-    <img src="https://contributors.nn.ci/api?repo=xerrors/Yuxi-Know" alt="贡献者名单">
+    <img src="https://contributors.nn.ci/api?repo=xerrors/Yuxi-Know" alt="Contributors List">
 </a>
-
 
 ## Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=xerrors/Yuxi-Know)](https://star-history.com/#xerrors/Yuxi-Know)
 
-## 📄 许可证
+## 📄 License
 
-本项目采用 MIT 许可证 - 查看 [LICENSE](LICENSE) 文件了解详情。
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
 <div align="center">
 
-**如果这个项目对您有帮助，请不要忘记给我们一个 ⭐️**
+**If this project helps you, please give us a ⭐️**
 
-[报告问题](https://github.com/xerrors/Yuxi-Know/issues) | [功能请求](https://github.com/xerrors/Yuxi-Know/issues) | [讨论](https://github.com/xerrors/Yuxi-Know/discussions)
+[Report Issues](https://github.com/xerrors/Yuxi-Know/issues) | [Feature Requests](https://github.com/xerrors/Yuxi-Know/issues) | [Discussions](https://github.com/xerrors/Yuxi-Know/discussions)
+
+</div>
+
+---
+
+## Español
+
+Yuxi-Know es una plataforma de agentes de IA potente que combina tecnologías de base de conocimientos RAG y gráficos de conocimiento, construida sobre la arquitectura LangGraph v1 + Vue.js + FastAPI + LightRAG.
+
+**Aspectos destacados**: Proporciona un kit de desarrollo completo de agentes de IA con licencia de código abierto MIT, stack tecnológico amigable, perfecto para construir su propia plataforma de agentes de IA.
+
+<img width="1632" height="392" alt="image" src="https://github.com/user-attachments/assets/ec381fde-53dd-4845-a79f-116b823fe989" />
+
+---
+
+**🎉 Últimas Actualizaciones**
+
+- **[2025/12/17] Lanzamiento de v0.4.0-beta**
+  <details>
+  <summary>Ver Registro de Cambios Detallado</summary>
+
+  ### Nuevas Características
+  - Agregado middleware de agente para cargas de archivos, ver [documentación](https://xerrors.github.io/Yuxi-Know/latest/advanced/agents-config.html)
+  - Agregado soporte para modelos multimodales (actualmente solo imágenes), ver [documentación](https://xerrors.github.io/Yuxi-Know/latest/advanced/agents-config.html)
+  - Creado DeepAgents (agente de análisis profundo) con soporte para renderizado de tareas, archivos y descargas
+  - Agregada generación de mapas mentales desde archivos de base de conocimientos ([#335](https://github.com/xerrors/Yuxi-Know/pull/335#issuecomment-3530976425))
+  - Agregada generación de preguntas de ejemplo desde archivos de base de conocimientos ([#335](https://github.com/xerrors/Yuxi-Know/pull/335#issuecomment-3530976425))
+  - Agregado soporte para carga de carpetas/zip en base de conocimientos ([#335](https://github.com/xerrors/Yuxi-Know/pull/335#issuecomment-3530976425))
+  - Agregado soporte para modelos personalizados y modelos dashscope rerank/embeddings
+  - Agregado soporte de imágenes para análisis de documentos (formatos MinerU Official, Docs, Markdown Zip)
+  - Agregado modo oscuro y mejoras de UI ([#343](https://github.com/xerrors/Yuxi-Know/pull/343))
+  - Agregada función de evaluación de base de conocimientos con importación/generación automática de benchmarks (solo Milvus), ver [documentación](https://xerrors.github.io/Yuxi-Know/latest/intro/evaluation.html)
+  - Agregado manejo de archivos duplicados con confirmación de carga
+  - Agregados scripts de despliegue en producción con dependencias Python fijas para estabilidad
+  - Optimizada visualización de gráficos con enfoque unificado basado en G6 y soporte de atributos, ver [documentación](https://xerrors.github.io/Yuxi-Know/latest/intro/knowledge-base.html)
+  - Optimizados DBManager/ConversationManager con soporte de operaciones asíncronas
+  - Mejorada página de detalles de base de conocimientos con funcionalidad de descarga mejorada
+
+  ### Correcciones de Errores
+  - Corregido modelo reranker que no se aplicaba
+  - Corregida desaparición de mensajes después de interrupción y mejorado manejo de errores
+  - Corregido estado de llamada a herramienta que permanecía activo cuando los resultados están vacíos (aunque exitosos)
+  - Corregida configuración de recuperación que no se aplicaba
+
+  ### Cambios Incompatibles
+  - Eliminado soporte de Chroma (obsoleto en versión actual)
+  - Eliminado TogetherAI de presets de configuración de modelos
+  </details>
+
+- **[2025/11/05] Lanzamiento de v0.3**
+  - Adaptación completa a características de LangChain/LangGraph v1 usando punto de entrada create_agent
+  - Actualización de análisis de documentos con soporte mineru-2.6 y mineru-api
+  - Kit de desarrollo de agentes mejorado con middleware y sub-agentes para desarrollo más fácil
+
+<div align="center">
+  <img width="4420" height="2510" alt="image" src="https://github.com/user-attachments/assets/76d58c8f-e4ef-4373-8ab6-7c80da568910" />
+  <br>
+  <img width="5369" height="2934" alt="222" src="https://github.com/user-attachments/assets/839978d4-dcb8-47bd-a629-2912d2867e7e" />
+  <br>
+  <img width="5369" height="2934" alt="333" src="https://github.com/user-attachments/assets/6387abce-45ab-4cd2-bd2f-e478d59a145f" />
+  <br>
+  <img width="5369" height="2934" alt="444" src="https://github.com/user-attachments/assets/aff737c4-4b58-4b2e-b7aa-b0ff92d84e9b" />
+  <br>
+  <img width="5369" height="2934" alt="555" src="https://github.com/user-attachments/assets/3fda0e48-ff6e-4b35-88b2-f7f7bc99a436" />
+  <br>
+  <img width="5369" height="2934" alt="666" src="https://github.com/user-attachments/assets/8fdf0407-056d-40e2-949c-8dd4247dc59d" />
+</div>
+
+## Contribuyendo
+
+¡Gracias a todos los contribuidores por su apoyo!
+
+<a href="https://github.com/xerrors/Yuxi-Know/contributors">
+    <img src="https://contributors.nn.ci/api?repo=xerrors/Yuxi-Know" alt="Lista de Contribuidores">
+</a>
+
+## Historial de Estrellas
+
+[![Star History Chart](https://api.star-history.com/svg?repos=xerrors/Yuxi-Know)](https://star-history.com/#xerrors/Yuxi-Know)
+
+## 📄 Licencia
+
+Este proyecto está licenciado bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) para más detalles.
+
+---
+
+<div align="center">
+
+**Si este proyecto te ayuda, por favor danos una ⭐️**
+
+[Reportar Problemas](https://github.com/xerrors/Yuxi-Know/issues) | [Solicitud de Características](https://github.com/xerrors/Yuxi-Know/issues) | [Discusiones](https://github.com/xerrors/Yuxi-Know/discussions)
 
 </div>

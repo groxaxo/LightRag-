@@ -258,19 +258,18 @@ const state = reactive({
 })
 
 
-// 语言选项（值使用英文，以保证后端/LightRAG 兼容；标签为中英文方便理解）
+// Language options (values use English for backend/LightRAG compatibility; labels for user understanding)
 const languageOptions = [
-  { label: '英语 English', value: 'English' },
-  { label: '中文 Chinese', value: 'Chinese' },
-  { label: '日语 Japanese', value: 'Japanese' },
-  { label: '韩语 Korean', value: 'Korean' },
-  { label: '德语 German', value: 'German' },
-  { label: '法语 French', value: 'French' },
-  { label: '西班牙语 Spanish', value: 'Spanish' },
-  { label: '葡萄牙语 Portuguese', value: 'Portuguese' },
-  { label: '俄语 Russian', value: 'Russian' },
-  { label: '阿拉伯语 Arabic', value: 'Arabic' },
-  { label: '印地语 Hindi', value: 'Hindi' },
+  { label: 'English', value: 'English' },
+  { label: 'Spanish (Español)', value: 'Spanish' },
+  { label: 'Japanese (日本語)', value: 'Japanese' },
+  { label: 'Korean (한국어)', value: 'Korean' },
+  { label: 'German (Deutsch)', value: 'German' },
+  { label: 'French (Français)', value: 'French' },
+  { label: 'Portuguese (Português)', value: 'Portuguese' },
+  { label: 'Russian (Русский)', value: 'Russian' },
+  { label: 'Arabic (العربية)', value: 'Arabic' },
+  { label: 'Hindi (हिन्दी)', value: 'Hindi' },
 ]
 
 const createEmptyDatabaseForm = () => ({
